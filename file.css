@@ -1,0 +1,95 @@
+body {
+      font-family: Arial, sans-serif;
+      margin: 50;
+      padding: 50;
+      background-color: #f2f2f2;
+  
+    }
+    .pricing-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .pricing-card {
+      border: 1px solid #ccc;
+      border-radius: 10px 20;
+      padding: 20px;
+      margin: 20px;
+      text-align:center;
+      width: 300px;
+      background-color:#fff;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+  
+.pricing-card{
+  list-style: none;
+  margin: 4em 1.5em;
+  text-align: center;
+  position: relative;
+}
+.pricing-card ul{
+  list-style:none;
+  margin: 2em 0;
+  text-align:left;
+}
+
+    .pricing-card h2 {
+      color: #000000;
+    }
+    .pricing-card p {
+      color: #666;
+    }
+    .price {
+      font-size: 24px;
+      font-weight: bold;
+      color: #ff0000;
+    }
+
+    .btn {
+       background-color: #d13e85;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      padding: 10px 20px;
+      cursor: pointer;
+      transition: background-color 0.3x
+    }
+  .btn:hover {
+      background-color: #d13e85;
+    }
+  ul li  {
+  background: #f2f2f2;
+  color: e6e6e6;
+  margin: 5px;
+}     
+  
+.pricing-card:nth-child(2) .price
+{
+  color: #74B72E;
+}
+.pricing-card:nth-child(2) .btn{
+  background-color:#74B72E;
+}
+
+.pricing-card:nth-child(1) .price
+{
+  color: #964B00;
+}
+.pricing-card:nth-child(1) .btn{
+  background-color:#964B00;
+}
+.pricing-card:nth-child(3) .price
+{
+  color: #FF0000;
+}
+.pricing-card:nth-child(3) .btn{
+  background-color:#FF0000;
+}
+.pricing-card:nth-child(4) .price
+{
+  color: #FFA500;
+}
+.pricing-card:nth-child(4) .btn{
+  background-color:#FFA500;
+}
